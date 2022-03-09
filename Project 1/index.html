@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilis.css">
+    <link rel="stylesheet" href="css/Responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="img/logo.png" alt=""></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search Here">
+                <button class="btn">Search</button>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="slider">
+                <img class="mySlides" src="img/dmitry-chernyshov-mP7aPSUm7aE-unsplash.jpg">
+                <img class="mySlides"  src="img/andras-vas-Bd7gNnWJBkU-unsplash.jpg">
+                <img class="mySlides" src="img/joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg">
+            </div>
+            
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+            <div class="card">
+                <h2 class="my-2">Deals of the Day</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="img/tp-link-archer-a9-original-imafgkz6mr3hnnzv.webp" width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <img src="img/dfbbf77f14d33ef6.webp" width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <img src="img/free-kvs186425-varanga-unstitched-original-imag4puexuhkzj6p.webp" width="200px"
+                            alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <img src="img/xl-dr1285pk-berrylush-original-imag6nv3zss8jv3g.webp" width="200px"
+                            alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="img/no-free-size-m3-fitness-band-xk33-yes-android-ios-mytech-yes-original-imagfz44h9kcya6g.webp"
+                            width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="img/jumbo-club-castle-playhouse-tent-indoor-outdoor-for-3-to-12-year-original-imag4zxzqdabmnqp.webp"
+                            width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <h2 class="my-2">Join the Cricket Fun</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="img/cricket.jpg" width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <img src="img/gloves.jpg" width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <img src="img/bat.jpg" width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <img src="img/ball.jpg" width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <img src="img/20-20-kids-cricket-set-cricket-kit-cricket-kit-bat-size-3-1-original-imaf9386faqf4b47.webp"
+                            width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <img src="img/hard-plastic-cricket-combo-1-piece-black-bat-size-3-for-8-years-original-imag72f844h8fey5.webp"
+                            width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="card">
+                <h2 class="my-2">Men's Footwear</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="img/hfi53-8-adidas-carbon-visgre-borang-original-imafk9b8dma6z86p.webp" width="200px"
+                            alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <img src="img/6-11g-787-campus-wht-sil-b-org-original-imagfgm9rmxbzbmm.webp" width="200px"
+                            alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <img src="img/blueShoes.webp" width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+
+                    </div>
+                    <div class="card-item">
+                        <img src="img/waterproof.webp" width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="img/4330908-41-nike-black-original-imafpferdrygemuc.webp" width="200px"
+                            alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="img/cd0188-005-13-nike-black-white-chile-red-glass-blue-original-imafzvwzhchqphte.webp"
+                            width="200px" alt="Cricket-set">
+                        <div class="lines">
+                            <p class="text-center my-1">Cricket-Set</p>
+                            <p class="text-center my-1">Min 20% off</p>
+                            <p class="text-center my-1">Grab Now!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+    <footer class="flex-all-center">
+        <p>Copyright &copy; MyCart.com </p>
+    </footer>
+
+</body>
+
+
+</html>
